@@ -70,4 +70,5 @@ app.include_router(api_router)
 
 if __name__ == "__main__":
     import uvicorn
+    print("STARTING STUDENT APP VERIFIED")
     uvicorn.run(app, host="0.0.0.0", port=8000)
